@@ -10,5 +10,5 @@ def plus(n: int, b: int) -> int:
 def test_fibonacci():
     assert fib(10) == 55
 
-def test_plus(
+def test_plus():
     assert plus(5,5) == 10
