@@ -7,7 +7,7 @@ def plus(n: int, b: int) -> int:
     return n+b
 
 def szoveg(n: int) -> string:
-    if n / 2 = 1:
+    if n / 2 == 1:
         return "valami"
     else:
         return "semmi"
