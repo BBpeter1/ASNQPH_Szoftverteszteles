@@ -6,7 +6,7 @@ def fib(n: int) -> int:
 def plus(n: int, b: int) -> int:
     return n+b
 
-def szoveg(n: int) -> string:
+def szoveg(n: int) -> int:
     if n / 2 == 1:
         return "valami"
     else:
