@@ -27,4 +27,4 @@ def test_szoveg():
 	assert szoveg(2) == "valami"
 	
 def test_lean():
-	assert lean(2) == True
+	assert lean(2) == False
