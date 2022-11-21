@@ -11,6 +11,12 @@ def szoveg(n: int) -> int:
         return "valami"
     else:
         return "semmi"
+    
+ def lean(n: int) -> int:
+    if n / 2 == 1:
+        return true
+    else
+        return false
 
 
 def test_fibonacci():
@@ -21,3 +27,6 @@ def test_plus():
 
 def test_szoveg():
     assert szoveg(2) == "valami"
+    
+def test_lean()
+    assert lean(2) == true
